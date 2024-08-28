@@ -9,18 +9,25 @@
   <body>
     <section class="sec-1">
       <div class="img">
-        <h1>Qr-Code Generator app</h1>
+        <h1 class="heading">Qr-Code Generator</h1>
         <img src="./qr_img.png" alt="qr image" />
         <div class="input">
-          <label for="url-link">URL :</label>
           <input
             type="text"
             class="text-box"
             name="url-link"
-            placeholder="Insert Url Here"
+            placeholder="Paste URL here"
+          />
+          <input
+            id="button"
+            type="button"
+            value="Generate"
+            name="Generate"
+            class="button"
           />
         </div>
       </div>
     </section>
+    <script src="./index.js"></script>
   </body>
 </html>
